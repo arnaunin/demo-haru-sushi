@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Haru Sushi · Sushi de fusió a Calafell Platja</title>
+<meta name="description" content="Proposta de web per a Haru Sushi, sushi de fusió japonesa i brasilera a Calafell Platja.">
+<meta name="theme-color" content="#0b0a09">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0a09'/%3E%3Ccircle cx='32' cy='32' r='14' fill='%23d9342b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Shippori+Mincho:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/roll-palets.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contingut" data-i18n="skip">Ves al contingut</a>
+
+<div class="top">
+  <aside class="proposta" aria-label="Avís de proposta">
+    <p>Proposta de web per a Haru Sushi · feta per Arnau Nin</p>
+    <p class="proposta-links">
+      <a href="https://arnaunin.netlify.app/" target="_blank" rel="noopener">arnaunin.netlify.app</a>
+      <a href="https://wa.me/34620505353" target="_blank" rel="noopener">WhatsApp</a>
+    </p>
+  </aside>
+
+  <header class="cap">
+    <a class="marca" href="#inici" aria-label="Haru Sushi, inici">
+      <span class="marca-nom">H<span class="marca-a">A</span>RU</span>
+      <span class="marca-sub">Sushi Fusion</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#nosaltres" data-i18n="nav.about">Nosaltres</a>
+      <a href="#carta" data-i18n="nav.menu">Carta</a>
+      <a href="#galeria" data-i18n="nav.gallery">Galeria</a>
+      <a href="#on-som" data-i18n="nav.find">Horari i ubicació</a>
+    </nav>
+    <div class="idiomes" role="group" aria-label="Idioma">
+      <button type="button" data-lang="ca" aria-pressed="true">CA</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+</div>
+
+<main id="contingut">
+
+  <section class="hero" id="inici">
+    <div class="hero-text">
+      <p class="sobretitol" data-i18n="hero.kicker">Calafell Platja</p>
+      <h1>
+        <span class="hero-nom">Haru Sushi</span>
+        <span class="hero-lema" data-i18n="hero.title">Sushi de fusió japonesa i brasilera</span>
+      </h1>
+      <p class="hero-intro" data-i18n="hero.intro">A la sala, a la terrassa, per emportar o a domicili.</p>
+      <div class="accions">
+        <a class="boto boto-ple" href="https://wa.me/34623160699" target="_blank" rel="noopener" data-i18n="cta.whatsapp">Escriu-nos per WhatsApp</a>
+        <a class="boto" href="tel:+34623160699" data-i18n="cta.call">Truca al 623 16 06 99</a>
+      </div>
+      <p class="estat" id="estat" aria-live="polite"></p>
+    </div>
+    <div class="hero-imatge">
+      <span class="sol" aria-hidden="true"></span>
+      <img src="img/roll-palets.webp" width="871" height="880" alt="Peça d'uramaki de salmó amb ous de peix, subjectada amb uns palets" data-i18n-alt="alt.hero" fetchpriority="high">
+    </div>
+  </section>
+
+  <section class="bloc nosaltres" id="nosaltres">
+    <figure class="nosaltres-foto">
+      <img src="img/xef.webp" width="890" height="841" loading="lazy" alt="El xef de Haru Sushi ratllant llima sobre un plat de tonyina" data-i18n-alt="alt.chef">
+    </figure>
+    <div class="nosaltres-text">
+      <p class="sobretitol" data-i18n="about.kicker">Nosaltres</p>
+      <h2 data-i18n="about.title">El Japó i el Brasil, a quatre passes del mar</h2>
+      <p data-i18n="about.p1">Haru Sushi és un restaurant de sushi de fusió a Calafell Platja. La base és japonesa; l'accent, brasiler.</p>
+      <p data-i18n="about.p2">Ens trobaràs al Passatge de Sant Antoni, amb sala i terrassa. I si prefereixes sopar a casa, pots fer la comanda per emportar o a domicili.</p>
+      <ul class="serveis">
+        <li data-i18n="svc.dinein">Sala</li>
+        <li data-i18n="svc.terrace">Terrassa</li>
+        <li data-i18n="svc.takeaway">Per emportar</li>
+        <li data-i18n="svc.delivery">A domicili</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bloc carta" id="carta">
+    <div class="carta-cap">
+      <p class="sobretitol" data-i18n="menu.kicker">La carta</p>
+      <h2 data-i18n="menu.title">Què hi trobaràs</h2>
+      <p data-i18n="menu.intro">Aquestes són les seccions de la carta. Els plats i els preus s'hi afegiran quan el restaurant ens faciliti la carta actual.</p>
+    </div>
+    <ol class="seccions">
+      <li><span data-i18n="cat.starters">Entrants</span></li>
+      <li><span data-i18n="cat.noodles">Yakisoba i arrossos</span></li>
+      <li><span>Sashimi</span></li>
+      <li><span>Nigiri</span></li>
+      <li><span>Hot rolls</span></li>
+      <li><span>Hosomaki</span></li>
+      <li><span>Uramaki</span></li>
+      <li><span>Temaki</span></li>
+      <li><span data-i18n="cat.combos">Combinats</span></li>
+      <li><span data-i18n="cat.desserts">Postres</span></li>
+    </ol>
+    <div class="carta-peu">
+      <p class="avis" data-i18n="menu.soon">Carta completa amb preus: properament.</p>
+      <a class="boto" href="https://wa.me/c/34623160699" target="_blank" rel="noopener" data-i18n="menu.catalog">Mira el catàleg a WhatsApp</a>
+    </div>
+  </section>
+
+  <section class="bloc galeria" id="galeria">
+    <p class="sobretitol" data-i18n="gallery.kicker">Galeria</p>
+    <h2 data-i18n="gallery.title">Peça a peça</h2>
+    <div class="mosaic">
+      <img class="gran" src="img/rolls.webp" width="892" height="857" loading="lazy" alt="Filera de rolls coberts de salmó flamejat i ceballot" data-i18n-alt="alt.g1">
+      <img src="img/roll-ma.webp" width="882" height="880" loading="lazy" alt="Una mà agafa amb palets una peça de roll de salmó" data-i18n-alt="alt.g2">
+      <img src="img/plat.webp" width="876" height="877" loading="lazy" alt="Plat fondo amb peix marinat, patata palla i una fulla verda" data-i18n-alt="alt.g3">
+      <img src="img/roll-palets.webp" width="871" height="880" loading="lazy" alt="Peça d'uramaki de salmó amb ous de peix entre dos palets" data-i18n-alt="alt.g4">
+      <img src="img/xef.webp" width="890" height="841" loading="lazy" alt="El xef preparant un plat a la cuina" data-i18n-alt="alt.g5">
+    </div>
+    <p class="galeria-peu"><span data-i18n="gallery.more">Més fotos a Instagram:</span> <a href="https://www.instagram.com/harusushicalafell/" target="_blank" rel="noopener">@harusushicalafell</a></p>
+  </section>
+
+  <section class="bloc on-som" id="on-som">
+    <div class="horari">
+      <p class="sobretitol" data-i18n="hours.kicker">Horari</p>
+      <h2 data-i18n="hours.title">Quan obrim</h2>
+      <table>
+        <tbody>
+          <tr data-dia="1"><th scope="row" data-i18n="day.1">Dilluns</th><td data-i18n="hours.closed">Tancat</td></tr>
+          <tr data-dia="2"><th scope="row" data-i18n="day.2">Dimarts</th><td>20.00–22.30</td></tr>
+          <tr data-dia="3"><th scope="row" data-i18n="day.3">Dimecres</th><td>20.00–22.30</td></tr>
+          <tr data-dia="4"><th scope="row" data-i18n="day.4">Dijous</th><td>20.00–22.30</td></tr>
+          <tr data-dia="5"><th scope="row" data-i18n="day.5">Divendres</th><td>20.00–23.00</td></tr>
+          <tr data-dia="6"><th scope="row" data-i18n="day.6">Dissabte</th><td>13.00–15.00 · 20.00–23.00</td></tr>
+          <tr data-dia="0"><th scope="row" data-i18n="day.0">Diumenge</th><td>13.00–15.30 · 20.00–22.00</td></tr>
+        </tbody>
+      </table>
+      <p class="nota" data-i18n="hours.note">Horari publicat a Google. Pot canviar per temporada: confirma'l abans de venir.</p>
+    </div>
+
+    <div class="ubicacio">
+      <p class="sobretitol" data-i18n="find.kicker">Ubicació</p>
+      <h2 data-i18n="find.title">On som</h2>
+      <address>
+        Passatge de Sant Antoni, 1<br>
+        43820 Calafell Platja, Tarragona
+      </address>
+      <div class="mapa">
+        <iframe title="Mapa de Haru Sushi a Calafell" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=1.5703%2C41.1855%2C1.5783%2C41.1893&amp;layer=mapnik&amp;marker=41.187396%2C1.574304"></iframe>
+      </div>
+      <a class="boto" href="https://www.google.com/maps/search/?api=1&amp;query=Haru+sushi+Calafell" target="_blank" rel="noopener" data-i18n="find.directions">Com arribar-hi</a>
+    </div>
+  </section>
+
+  <section class="bloc contacte" id="contacte">
+    <p class="sobretitol" data-i18n="contact.kicker">Contacte</p>
+    <h2 data-i18n="contact.title">Taula o comanda?</h2>
+    <p class="contacte-intro" data-i18n="contact.intro">Les reserves i les comandes es fan directament amb el restaurant, per telèfon o per WhatsApp.</p>
+    <ul class="canals">
+      <li><a href="tel:+34623160699"><span data-i18n="contact.phone">Telèfon</span><strong>623 16 06 99</strong></a></li>
+      <li><a href="https://wa.me/34623160699" target="_blank" rel="noopener"><span>WhatsApp</span><strong>623 16 06 99</strong></a></li>
+      <li><a href="https://www.instagram.com/harusushicalafell/" target="_blank" rel="noopener"><span>Instagram</span><strong>@harusushicalafell</strong></a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="peu">
+  <p class="marca-nom">H<span class="marca-a">A</span>RU</p>
+  <p data-i18n="footer.disclaimer">Aquesta pàgina és una proposta de disseny feta per Arnau Nin. No és la web oficial de Haru Sushi.</p>
+  <p><a href="https://arnaunin.netlify.app/" target="_blank" rel="noopener">arnaunin.netlify.app</a> · <a href="https://wa.me/34620505353" target="_blank" rel="noopener">WhatsApp 620 50 53 53</a></p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
