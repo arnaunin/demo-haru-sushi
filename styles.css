@@ -64,12 +64,12 @@ p { margin: 0 0 1rem; }
 
 .marca { text-decoration: none; display: grid; line-height: 1; margin-right: auto; }
 .marca-nom {
-  font-family: var(--serif); font-weight: 800; font-size: 1.55rem;
-  letter-spacing: .22em; margin: 0;
+  font-family: var(--sans); font-weight: 700; font-size: 1.6rem;
+  letter-spacing: .1em; margin: 0; display: inline-flex; align-items: baseline;
 }
-.marca-a { color: var(--red); }
+.marca-a { height: 1.12em; width: auto; margin: 0 .04em 0 -.06em; overflow: visible; }
 .marca-sub {
-  font-size: .62rem; letter-spacing: .34em; text-transform: uppercase;
+  font-size: .6rem; letter-spacing: .3em; text-transform: uppercase;
   color: var(--muted); margin-top: .3rem;
 }
 
@@ -229,7 +229,7 @@ address { font-style: normal; font-size: 1.15rem; margin-bottom: 1.4rem; }
   border-top: 1px solid var(--line); padding: 3rem var(--pad) 3.5rem;
   text-align: center; color: var(--muted); font-size: .9rem;
 }
-.peu .marca-nom { color: var(--ink); margin-bottom: 1rem; }
+.peu .marca-nom { color: var(--ink); margin-bottom: 1rem; font-size: 2rem; }
 .peu p { margin-bottom: .5rem; }
 
 /* ---------- Responsive ---------- */
