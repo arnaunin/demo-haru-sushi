@@ -56,22 +56,14 @@ p { margin: 0 0 1rem; }
 
 .cap {
   display: flex; align-items: center; gap: 1.5rem;
-  padding: .7rem var(--pad);
+  padding: .5rem var(--pad);
   background: rgba(11, 10, 9, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 
-.marca { text-decoration: none; display: grid; line-height: 1; margin-right: auto; }
-.marca-nom {
-  font-family: var(--serif); font-weight: 800; font-size: 1.55rem;
-  letter-spacing: .22em; margin: 0;
-}
-.marca-a { color: var(--red); }
-.marca-sub {
-  font-size: .62rem; letter-spacing: .34em; text-transform: uppercase;
-  color: var(--muted); margin-top: .3rem;
-}
+.marca { display: block; margin-right: auto; }
+.marca img { height: 3.9rem; width: auto; }
 
 .nav { display: flex; gap: 1.6rem; font-size: .93rem; }
 .nav a { text-decoration: none; color: var(--muted); padding: .4rem 0; }
@@ -229,7 +221,7 @@ address { font-style: normal; font-size: 1.15rem; margin-bottom: 1.4rem; }
   border-top: 1px solid var(--line); padding: 3rem var(--pad) 3.5rem;
   text-align: center; color: var(--muted); font-size: .9rem;
 }
-.peu .marca-nom { color: var(--ink); margin-bottom: 1rem; }
+.peu-logo img { height: 8rem; width: auto; margin: 0 auto 1.2rem; }
 .peu p { margin-bottom: .5rem; }
 
 /* ---------- Responsive ---------- */
@@ -247,7 +239,7 @@ address { font-style: normal; font-size: 1.15rem; margin-bottom: 1.4rem; }
   html { scroll-padding-top: 9.5rem; }
   .proposta { font-size: .78rem; padding-block: .4rem; }
   .cap { gap: .8rem; }
-  .marca-nom { font-size: 1.3rem; }
+  .marca img { height: 3.3rem; }
   .seccions { grid-template-columns: 1fr; }
   .mosaic { grid-template-columns: repeat(2, 1fr); }
   .accions .boto { width: 100%; }
